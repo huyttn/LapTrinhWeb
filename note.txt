@@ -1,0 +1,3 @@
+script language: ngôn ngữ kịch bản, là ngôn ngữ kiểu thông dịch(interpret)
+interperter: php,javascript
+ngôn ngữ biên dịch (compile- compiler): C, C++, C#

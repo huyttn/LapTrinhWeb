@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid red; width: 40px; height: 30px;
+            background-color: yellow;
+            transition-property: background-color; 
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            animation-name: colors;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        div:hover {
+            background-color: green;  
+            transform: rotate(90deg); 
+            transform-style: preserve-3d;
+        }
+
+        @keyframes color {
+            0% { background-color: red; }
+            20% { background-color: orange; }
+            40% { background-color: yellow; }
+            60% { background-color: green; }
+            80% { background-color: blue; }
+            100% { background-color: purple; }
+        }
+    </style>
+</head>
+<body>
+    <div>hello</div>
+    
+</body>
+</html>
