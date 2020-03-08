@@ -98,7 +98,7 @@ header {
     width: 100%;
     float: left;
     padding-top: 80px;
-    margin: -60px;
+    margin-top: -60px;
 }
 
 
@@ -197,9 +197,48 @@ header {
 	color: #e1c78c;
 }
 
-
-
 footer {
+	width: 100%;
+	background: url(image/footer.png) center no-repeat;
+	height: 315px;
+	position: fixed;
+	bottom: 0px;
+	
+}
 
+footer .footer_content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 275px 10px 0px 10px;
+}
+
+footer .footer_content .left_footer {
+	width: 340px;
+	height: 30px;
+	float: left;
+}
+
+#txtSearch {
+	width: 260px;
+	height: 30px;
+	float: left;
+	border: 0;
+	background-color: #e8d3a5;
+	border-radius: 15px 0px 0px 15px;	
+}
+
+#btnSearch {
+	width: 77px;
+	height: 30px;
+	float: left;
+	background-color: #db6516;
+	color: white;
+	border-radius: 0px 15px 15px 0px;
+	cursor: pointer;
+}
+
+footer .footer_content .right_footer {
+	float: right;
+	color: white;
 }
 
